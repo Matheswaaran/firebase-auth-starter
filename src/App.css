@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -26,6 +26,40 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form input {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.login-form button {
+  font-size: 24px;
+  margin-top: 16px;
+}
+
+.logout-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form span {
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.login-form button {
+  font-size: 24px;
 }
 
 @keyframes App-logo-spin {
